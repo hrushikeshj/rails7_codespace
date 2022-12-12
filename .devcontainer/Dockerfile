@@ -5,5 +5,4 @@ RUN apt-get update && apt-get -y upgrade && \
     apt install -y nodejs && \
     npm install --global yarn
 
-RUN gem install rails --version 7.0.4 \
-    gem install bundler --version 2.2.33
+RUN gem install rails:7.0.4 bundler:2.2.33
