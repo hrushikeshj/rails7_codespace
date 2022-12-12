@@ -1,6 +1,6 @@
 {
     "name": "ruby-3",
-    "image": "mcr.microsoft.com/devcontainers/ruby:3.0.5",
+    "image": "mcr.microsoft.com/devcontainers/base:bullseye",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:1": {
             "username": "vscode",
