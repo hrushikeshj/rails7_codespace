@@ -19,6 +19,10 @@
             "ppa": "false"
         }
     },
+    "onCreateCommand": {
+        "default-ruby": "rvm --default use 3.0.5",
+        "gemset": "rvm use 3.0.5@rails7 --create && gem install rails --version 7.0.4"
+    },
     // Configure tool-specific properties.
     "customizations": {
         // Configure properties specific to VS Code.
