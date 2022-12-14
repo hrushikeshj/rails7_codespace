@@ -19,7 +19,7 @@
             "ppa": "false"
         }
     },
-    "onCreateCommand": {
+    "postCreateCommand": {
         "default-ruby": "rvm --default use 3.0.5",
         "gemset": "rvm use 3.0.5@rails7 --create && gem install rails --version 7.0.4"
     },
