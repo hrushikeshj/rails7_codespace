@@ -1,1 +1,1 @@
-hru 1: test*
+hru 1: ['test*', 't1*']
